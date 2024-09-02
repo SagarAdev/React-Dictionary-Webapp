@@ -1,6 +1,6 @@
 # Dictionary App
 
-A React-based web application that allows users to search for word definitions, phonetics, and synonyms. The app also includes features like dark mode and font selection for a personalized user experience.
+A responsive dictionary application using React that allows users to search for word definitions, synonyms, and phonetic transcription using a dictionary API. The app also includes features like dark mode and font selection for a personalized user experience.
 
 ## Features
 - **Search Functionality**: Look up word definitions, phonetics, and synonyms using a dictionary API.
