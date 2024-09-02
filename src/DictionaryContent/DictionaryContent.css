@@ -1,0 +1,157 @@
+:root {
+    --background-color: #ffffff;
+    --text-color: #1f1f1f;
+    --primary-color: #e9e9e9;
+    --secondary-color: #757575;
+}
+
+.dark-mode {
+    --background-color: #050505;
+    --text-color: #e9e9e9;
+    --primary-color: #1f1f1f;
+    --secondary-color: #757575;
+}
+
+section {
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    max-width: 550px;
+    color: var(--text-color)
+}
+
+.word-desc {
+    width: 100%;
+    margin: 30px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.word-desc h2 {
+    font-size: 46px;
+    color: var(--text-color);
+}
+
+.word-desc .phonetic {
+    font-family: sans-serif;
+    color: #a445ed;
+}
+
+.play-button {
+    background-color: #dec1f2;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.play-button div {
+    width: 35px;
+    height: 35px;
+    background: url(../assets/play-mini-fill.svg);
+    background-repeat: no-repeat;
+}
+
+.gen-desc {
+    width: 100%;
+    margin: 15px 0;
+}
+
+.heading {
+    font-style: italic;
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.heading h3 {
+    margin-right: 20px;
+    color: var(--text-color);
+}
+
+.heading .horizontal-line {
+    background-color: var(--primary-color);
+    width: 100%;
+    height: 1px;
+}
+
+.meaning h4 {
+    color: var(--secondary-color);
+    font-weight: 100;
+    margin-bottom: 12px;
+}
+
+.meaning-list {
+    padding-left: 25px;
+    margin-bottom: 30px;
+}
+
+.meaning-list li {
+    color: #a445ed;
+    font-size: 10px;
+    margin-bottom: 10px;
+}
+
+.meaning-list li span {
+    color: var(--text-color);
+    font-size: 16px;
+}
+
+.meaning-list li .example {
+    color: var(--secondary-color);
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.synonym {
+    color: var(--secondary-color);
+    font-weight: 100;
+    display: flex;
+}
+
+.synonym span {
+    color: #a445ed;
+    font-weight: 600;
+}
+
+.synonym-list {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 10px;
+}
+
+.synonym-list span {
+    margin-left: 20px;
+}
+
+synonym-list span:first-of-type {
+    margin-left: 0;
+}
+
+.verb-desc {
+    border-bottom: 1px solid var(--primary-color);
+}
+
+.source {
+    color: var(--primary-color);
+    font-size: 12px;
+    margin-bottom: 50px;
+}
+
+.source a {
+    color: var(--secondary-color);
+    padding: 10px;
+}
+
+.error-404-message {
+    color: var(--text-color);
+    font-size: 23px;
+    font-weight: 500;
+    margin-top: 50px;
+}
