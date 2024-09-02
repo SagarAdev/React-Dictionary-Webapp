@@ -1,8 +1,21 @@
-# React + Vite
+#Dictionary App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React-based web application that allows users to search for word definitions, phonetics, and synonyms. The app also includes features like dark mode and font selection for a personalized user experience.
 
-Currently, two official plugins are available:
+##Features
+-**Search Functionality**: Look up word definitions, phonetics, and synonyms using a dictionary API.
+-**Responsive UI**: A user-friendly interface that adapts to different screen sizes.
+-**Dark Mode**: Toggle between light and dark themes to suit your preference.
+-**Font Selection**: Choose from different font styles for a customized reading experience.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+##Technologies Used
+-**Frontend**: React.js, JavaScript, HTML5, CSS3
+-**API**: https://dictionaryapi.dev
+-Axios for API requests
+
+##Usage
+-**Search for Words**: Type a word into the search bar and press Enter to view its definitions, phonetics, and synonyms.
+-**Toggle Dark Mode**: Click on the dark mode toggle switch to change the theme.
+-**Change Font**: Select a preferred font from the dropdown menu for a personalized look.
+
+##Screenshots
