@@ -6,6 +6,8 @@ import axios from 'axios';
 import './App.css'
 
 function App() {
+
+  //stores the word data fetched from api
   const [wordData, setWordData] = useState({
     word: "",
     phonetic: "",
@@ -15,13 +17,14 @@ function App() {
     verbSynonyms: []
   });
   const [darkMode, setDarkMode] = useState(false);
-  const [font, setFont] = useState("Sans Serif");
+  const [font, setFont] = useState("Serif");
   const [word404Error, setWord404Error] = useState(false);
 
   function handleFontChange(selectedFont) {
     setFont(selectedFont);
     document.body.style.fontFamily = getFontFamily(selectedFont);
   }
+
 
   function getFontFamily(fontName) {
     switch (fontName) {
